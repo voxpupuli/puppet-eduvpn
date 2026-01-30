@@ -12,7 +12,7 @@
   "license": "Apache-2.0",
   "dependencies": [
     {
-      "version_requirement": ">= 7.0.0 < 11.0.0",
+      "version_requirement": ">= 7.0.0 < 12.0.0",
       "name": "puppetlabs/apt"
     },
     {
@@ -28,9 +28,28 @@
         "13"
       ]
     },
-
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "22.04",
+        "24.04"
+      ]
+    },
+    {
+      "operatingsystem": "Fedora",
+      "operatingsystemrelease": [
+        "42",
+        "43"
+      ]
+    },
     {
       "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
       "operatingsystemrelease": [
         "9"
       ]
