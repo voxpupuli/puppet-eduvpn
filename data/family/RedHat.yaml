@@ -1,0 +1,2 @@
+---
+eduvpn::repo_dir: alma+epel-%{facts.os.release.major}-%{facts.os.architecture}
