@@ -22,6 +22,14 @@
   ],
   "operatingsystem_support": [
     {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "12",
+        "13"
+      ]
+    },
+
+    {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "9"

@@ -1,0 +1,2 @@
+---
+eduvpn::dist_dir: fedora-%{facts.os.release.major}-%{facts.os.architecture}

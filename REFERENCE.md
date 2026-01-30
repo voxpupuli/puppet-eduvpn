@@ -33,17 +33,19 @@ class{ 'eduvpn': }
 
 The following parameters are available in the `eduvpn` class:
 
-* [`repo_dir`](#-eduvpn--repo_dir)
+* [`dist_dir`](#-eduvpn--dist_dir)
 * [`manage_repos`](#-eduvpn--manage_repos)
 * [`prefix`](#-eduvpn--prefix)
 * [`repo_version`](#-eduvpn--repo_version)
 * [`repo_prefix`](#-eduvpn--repo_prefix)
 
-##### <a name="-eduvpn--repo_dir"></a>`repo_dir`
+##### <a name="-eduvpn--dist_dir"></a>`dist_dir`
 
-Data type: `String[1]`
+Data type: `Optional[String[1]]`
 
-OS particular directory of package repository URL. Default in hiera.
+OS particular directory of package repository URL. Defaults in hiera.
+
+Default value: `undef`
 
 ##### <a name="-eduvpn--manage_repos"></a>`manage_repos`
 
