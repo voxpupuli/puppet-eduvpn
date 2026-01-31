@@ -2,7 +2,7 @@
 #
 # @param dist_dir OS particular directory of package repository URL. Defaults in hiera.
 # @param manage_repos Should the repositories be managed.
-# @param prefix of the repository URL
+# @param repo_prefix of the repository URL
 # @param repo_version eduVPN version string in the repository URL
 #
 # @example Install eduVPN client
