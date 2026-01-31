@@ -13,6 +13,7 @@
 
 Configures repositories and installs the eduVPN client: https://www.eduvpn.org
 
+On Enterprise Linux distributions it assumed that the EPEL repository has been enabled somehow.
 
 ## Example
 
