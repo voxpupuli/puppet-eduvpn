@@ -34,4 +34,4 @@ class{ 'eduvpn':
 
 ## Reference
 
-The reference of the quadlet module see [REFERENCE.md](REFERENCE.md)
+The reference of the eduvpn module see [REFERENCE.md](REFERENCE.md)
