@@ -1,0 +1,81 @@
+{
+  "name": "puppet-eduvpn",
+  "version": "1.0.0-rc0",
+  "summary": "Manages eduVPN client",
+  "author": "Vox Pupuli",
+  "project_page": "https://github.com/voxpupuli/puppet-eduvpn",
+  "source": "https://github.com/voxpupuli/puppet-eduvpn.git",
+  "issues_url": "https://github.com/voxpupuli/puppet-eduvpn/issues",
+  "tags": [
+    "eduvpn"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": [
+    {
+      "version_requirement": ">= 7.0.0 < 12.0.0",
+      "name": "puppetlabs/apt"
+    },
+    {
+      "version_requirement": ">= 6.1.0 < 10.0.0",
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "13"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "22.04",
+        "24.04"
+      ]
+    },
+    {
+      "operatingsystem": "Fedora",
+      "operatingsystemrelease": [
+        "42",
+        "43"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "AlmaLinux",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "Rocky",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "openvox",
+      "version_requirement": ">= 8.19.0 < 9.0.0"
+    }
+  ]
+}

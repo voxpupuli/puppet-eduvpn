@@ -1,0 +1,15 @@
+---
+version: 5
+
+defaults:
+  datadir: data
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "os_family_name"
+    paths:
+      - "family-name/%{facts.os.family}-%{facts.os.name}.yaml"
+  - name: "os_family"
+    paths:
+      - "family/%{facts.os.family}.yaml"
+
