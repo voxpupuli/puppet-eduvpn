@@ -35,9 +35,8 @@ The following parameters are available in the `eduvpn` class:
 
 * [`dist_dir`](#-eduvpn--dist_dir)
 * [`manage_repos`](#-eduvpn--manage_repos)
-* [`prefix`](#-eduvpn--prefix)
-* [`repo_version`](#-eduvpn--repo_version)
 * [`repo_prefix`](#-eduvpn--repo_prefix)
+* [`repo_version`](#-eduvpn--repo_version)
 
 ##### <a name="-eduvpn--dist_dir"></a>`dist_dir`
 
@@ -55,9 +54,13 @@ Should the repositories be managed.
 
 Default value: `true`
 
-##### <a name="-eduvpn--prefix"></a>`prefix`
+##### <a name="-eduvpn--repo_prefix"></a>`repo_prefix`
+
+Data type: `Stdlib::Httpsurl`
 
 of the repository URL
+
+Default value: `'https://app.eduvpn.org/linux/'`
 
 ##### <a name="-eduvpn--repo_version"></a>`repo_version`
 
@@ -66,12 +69,4 @@ Data type: `Enum['v4','v4-dev']`
 eduVPN version string in the repository URL
 
 Default value: `'v4'`
-
-##### <a name="-eduvpn--repo_prefix"></a>`repo_prefix`
-
-Data type: `Stdlib::Httpsurl`
-
-
-
-Default value: `'https://app.eduvpn.org/linux/'`
 
