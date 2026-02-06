@@ -1,6 +1,6 @@
 {
   "name": "puppet-eduvpn",
-  "version": "1.0.0",
+  "version": "1.0.1-rc0",
   "summary": "Manages eduVPN client",
   "author": "Vox Pupuli",
   "project_page": "https://github.com/voxpupuli/puppet-eduvpn",
