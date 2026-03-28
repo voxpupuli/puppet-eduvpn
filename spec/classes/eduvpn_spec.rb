@@ -56,13 +56,13 @@ describe 'eduvpn' do
               is_expected.to contain_apt__keyring('eduvpn-v4-dev.gpg').with(
                 {
                   source: 'https://example.org/v4-dev/deb/app+linux@eduvpn.org.gpg',
-                }
+                },
               )
               is_expected.to contain_apt__source('eduvpn-v4-dev').with(
                 {
                   location: 'https://example.org/v4-dev/deb/',
                   keyring: '/etc/apt/keyrings/eduvpn-v4-dev.gpg',
-                }
+                },
               )
             }
           else
@@ -71,7 +71,7 @@ describe 'eduvpn' do
                 {
                   baseurl: 'https://example.org/v4-dev/rpm/minix-powerpc',
                   gpgkey: 'https://example.org/v4-dev/rpm/app+linux@eduvpn.org.asc',
-                }
+                },
               )
             }
           end
