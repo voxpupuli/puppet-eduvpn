@@ -69,4 +69,3 @@ Data type: `Enum['v4','v4-dev']`
 eduVPN version string in the repository URL
 
 Default value: `'v4'`
-
